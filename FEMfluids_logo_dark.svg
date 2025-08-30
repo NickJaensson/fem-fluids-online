@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348.7617 144.917">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #1c75bc;
+      }
+
+      .cls-3 {
+        font-family: AvenirNext-Bold, 'Avenir Next';
+        font-size: 72px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(-.0002 109.9255)"><tspan class="cls-1" x="0" y="0">FEM</tspan><tspan class="cls-2" x="153.9336" y="0">fluids</tspan></text>
+</svg>

@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+format: jb-book
+root: intro
+parts:
+  - caption: Content
+    numbered: true
+    chapters:
+      - file: 01_governing
+      - file: 02_femintro
+      - file: 03_stokes
+      - file: 04_gnewtonian
+      - file: 05_navierstokes
+      - file: 06_movingboun
+      - file: References
+
+  - caption: Appendix
+    numbered: false
+    chapters:
+      - file: A_Summary_mathematics
+
+  - caption: Credits
+    chapters:
+      - file: credits
