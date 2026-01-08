@@ -32,7 +32,7 @@ sphinx:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js
       - _static/custom.js  # Add custom JavaScript for centering equations
     mathjax3_config:
-      loader: {load: ['[tex]/autoload', '[tex]/ams']}
+      loader: {load: ['[tex]/autoload', '[tex]/ams', '[tex]/boldsymbol']}      
       tex:
         packages: {'[+]': ['autoload', 'ams', 'physics', 'boldsymbol']}
         tags: 'ams'
@@ -42,7 +42,7 @@ sphinx:
           "bm": "\\mathbf"
           "inprod": "\\innerproduct"
           "diff": "\\pdv"
-          "vek": ["\\mathbf{#1}", 1]
+          "vek": ["\\boldsymbol{#1}", 1]
           "sumNm": "\\sum\\limits_{i=1}^{N-1}"
           "sumN": "\\sum\\limits_{i=1}^N"
           "IO": "\\int\\limits_{\\Omega}"
@@ -67,12 +67,12 @@ sphinx:
           "dpderiv": ["\\dfrac{\\partial #1}{\\partial #2}", 2]
           "lderiv": ["d #1 / d #2", 2]
           "deriv": ["\\frac{d #1}{d #2}", 2]
-          "mat":  ["\\enclose{bottom}[padding=0,thickness=0.06em]{#1}", 1]
-          "matt": ["\\enclose{bottom}[padding=0,thickness=0.06em]{#1}", 1]
+          "mat":  ["\\mathsf{#1}", 1]
+          "matt": ["\\mathsf{#1}", 1]
           "mats": ["{\\enclose{bottom}[padding=0,thickness=0.06em]{#1}}\\!_{\\hspace{2pt}#2}", 2]
-          "col": ["\\underset{\\smash{\\lower-1ex\\hbox{\\(\\tilde{}\\)}}}{#1}", 1]
-          "coll": ["\\underset{\\smash{\\lower-1ex\\hbox{\\(\\tilde{}\\)}}}{#1}\\!_{\\hspace{2pt}#2}", 2]
-          "cols": ["\\underset{\\smash{\\lower-1ex\\hbox{\\(\\tilde{}\\)}}}{#1}\\!_{\\hspace{2pt}#2}", 2]
+          "col": ["\\mathsf{#1}", 1]
+          "coll": ["\\mathsf{#1}", 1]
+          "cols": ["\\mathsf{#1}", 1]
           "tsum": "{\\textstyle\\sum}"
           "DR": ["\\textrm{DR}"]
           "inv": "{}^{-1}"
