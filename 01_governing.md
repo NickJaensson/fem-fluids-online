@@ -55,7 +55,7 @@ If we now substitute $\rho$ for $\xi$ we obtain
 
 $$ \frac{d \rho}{dt}  + \rho  \nabla \cdot  {\vek u} = 0, $$ (eq9-chap1)
 
-since the integral relation must hold for any arbitrary volume, hence its argument should equal zero. Again using the relation between the material and spatial derivative from Equation {eq}`eq9-chap1`,
+since the integral relation must hold for any arbitrary volume, hence its argument should equal zero. Again using the relation between the material and spatial derivative from Equation {eq}`eq5-chap1`,
 
 $$\frac{\partial \rho}{ \partial t} +   \nabla\cdot (\rho {\vek u}) = 0. $$ (eq10-chap1)
 
@@ -78,7 +78,7 @@ where ${\vek f}$ is a body force like gravity, but can also be an external magne
 
 $$\IG {\vek t} d\Gamma$$ (eq14-chap1)
 
-where ${\vek t}$ is a surface force acting on the boundary $\Gamma$ of the domain $\Omega$ and ${\vek t}$ is known as the stress vector as defined in
+where ${\vek t}$ is a surface force acting on the boundary $\Gamma$ of the domain $\Omega$ and ${\vek t}$ is the stress vector, also known as the *traction*, as defined in
 
 $${\vek t}  =  \ten \sigma \cdot \vek n, $$ (eq15-chap1)
 
@@ -140,7 +140,7 @@ and similar as for the mass and momentum balance the individual terms are rewrit
   where $u$ is the *specific* internal energy.
   With the Reynolds transport theorem the material derivative of $U$ follows as
 
-  $$ \frac{dU}{dt} = \IOt \pdif{\rho u}{t} d\Omega + \IOt \nabla \cdot(\rho u {\vek u}) d\Omega (eq26-chap1) $$
+  $$ \frac{dU}{dt} = \IOt \pdif{\rho u}{t} d\Omega + \IOt \nabla \cdot(\rho u {\vek u}) d\Omega $$ (eq26-chap1)
 
 * The second term describes the rate of change in kinetic energy $K$ defined as
 
@@ -181,11 +181,11 @@ $$ \underbrace{\pdif{\rho u}{t} + \nabla\cdot (\rho u {\vek u})}_
      {\mbox{internal energy}} +
    \underbrace{\pdif{}{t} ( \half \rho {\vek u}\cdot{\vek u}) +
             \nabla \cdot [(\half \rho{\vek u}\cdot{\vek u}){\vek u} ]}_
-     {\mbox{  kinetic energy}} $$ (eq33-chap1)
+     {\mbox{  kinetic energy}} $$
      
 
  $$ = \underbrace{ {\vek f}\cdot{\vek u} + [{\vek u}\cdot(\nabla\cdot\ten \sigma) + \ten \sigma : \ten D ]}_{\mbox{work by external and contact forces}}
-+\underbrace{\rho r}_{\mbox{heat production}} - \underbrace{\nabla \cdot \vek q}_{\mbox{heat flux}} $$ (eq34-chap1)
++\underbrace{\rho r}_{\mbox{heat production}} - \underbrace{\nabla \cdot \vek q}_{\mbox{heat flux}} $$ (eq33-chap1)
 
 The energy balance as given in
 Equation {eq}`eq33-chap1` contains both thermal and mechanical terms and
@@ -233,6 +233,7 @@ The balance of mass, momentum and energy derived in the previous section are gen
   $$\vek q=-\vek k\cdot\nabla T,$$ (eq39-chap1)
 
   where $\vek k$ denotes the thermal heat conduction, which can be a two-tensor in general.
+
 These are the simplest constitutive formulations, but not all homogeneous materials obey these laws. Some materials show a time-dependence of stress on rate of deformation and/or a dependence of viscosity on pressure, temperature or rate of deformation. In the field of rheology a large class of  constitutive relations have been developed.
 
 ## Isothermal conditions
