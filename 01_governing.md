@@ -221,7 +221,7 @@ $$ \rho c_v \frac{dT}{dt} + \rho L_v \frac{d v }{dt} =
 
 where $c_v$ is the specific heat at constant volume and the scalar $v$ denotes the specific volume where $v=\rho^{-1}$.
 
-## Constitutive equation
+## Constitutive equations
 The balance of mass, momentum and energy derived in the previous section are general and need to be completed with constitutive equations. The most simple constitutive relations for stress and heat flux are
 * stress is linear proportional with rate of deformation (Newton's law): 
 

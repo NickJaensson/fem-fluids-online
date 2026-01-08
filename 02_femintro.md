@@ -1,6 +1,6 @@
 
 (Chap2)=
-# Finite element method 
+# Introduction to the finite element method
 
 
 In this chapter we introduce the finite element method using the steady diffusion equation as an example.
