@@ -173,8 +173,7 @@ and similar as for the mass and momentum balance the individual terms are rewrit
   
   $$ Q = \IOt\rho r d\Omega - \IGt \vek q\cdot{\vek n} d\Gamma = \IOt\rho r d\Omega - \IOt \nabla \cdot \vek q d\Omega $$ (eq32-chap1)
   
-
-The minus sign in front of the heat flux term $\vek q$ appears, since the normal vector ${\vek n}$ is defined as the normal outward vector on $\Gamma$, thus the direction of the heat flux is opposite to that. The term $\rho r$ is relevant when radiation is important; for example when fluid flow inside a microwave is studied. Note that in most cases this term equals zero.
+  The minus sign in front of the heat flux term $\vek q$ appears, since the normal vector ${\vek n}$ is defined as the normal outward vector on $\Gamma$, thus the direction of the heat flux is opposite to that. The term $\rho r$ is relevant when radiation is important; for example when fluid flow inside a microwave is studied. Note that in most cases this term equals zero.
 
 If all four terms are now substituted in Equation {eq}`eq24-chap1` and the argument is used that $\Omega$ is general, then the total integrand should also be zero, which yields the thermo-mechanical energy balance:
 
