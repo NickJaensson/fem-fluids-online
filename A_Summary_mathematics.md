@@ -10,7 +10,7 @@ As a general rule, we try to use subscripts for indices as much as possible. If 
  
 ## Column vectors and matrices
 
-Column vectors will be denoted as $\col{a}$, preferably with a lower case symbol, and matrices as $\mat{A}$, preferably with an upper case symbol. Standard notation from linear algebra will be used, for example $\mat{A}\col{u}=\col{f}$ 
+Column vectors will be denoted as a sans serif lower case symbol (e.g., $\col{a}$), and matrices as a sans serif upper case symbol (e.g., $\mat{A}$). Standard notation from linear algebra will be used, for example $\mat{A}\col{u}=\col{f}$ 
 for a system of linear equations with formal solution $\col{u}=\mat{A}^{-1}\col{f}$. In addition to the transpose of a matrix $\mat{A}^T$, the transpose of a column vector is defined as $\col{u}^T=(u_1,u_2,\dots,u_N)$, where $N$ is the size of the column vector.
 
 ## Vector and tensor notation
