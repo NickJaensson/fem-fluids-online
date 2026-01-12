@@ -1,9 +1,9 @@
-# fem_fluids_online
+# fem-fluids-online
 This repo contains the source code to build a Jupyter book for
 *FEM for fluids*.
 
 The book can be accessed here: 
-https://nickjaensson.github.io/fem_fluids_online
+https://nickjaensson.github.io/fem-fluids-online
 
 
 ## Building the book
