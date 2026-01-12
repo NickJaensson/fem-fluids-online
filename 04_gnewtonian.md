@@ -44,7 +44,7 @@ $$
 $$ (eq6-chap4)
 
 where $\mathcal{F}_0$, $\mathcal{F}_1$ and $\mathcal{F}_2$ are functions of the three invariants only. This is called a *Reiner-Rivlin fluid*. 
-````{exercise} Exercise 4.1
+````{exercise}
 :label: ex:4.1
 Show that for the Reiner-Rivlin fluid with $\mathcal{F}_2\neq 0$, in simple shear flow the *first normal stress difference* $\tau_{xx}-\tau_{yy}=0$ and the *second normal stress difference* $\tau_{yy}-\tau_{zz}\neq0$. Here $x$ is the flow direction, $y$ the gradient direction and $z$ the vorticity direction.
 
@@ -69,7 +69,7 @@ Assuming the (viscosity) function $\eta$ is determined from shear data only,
 there is no possibility to obtain the dependence on the third invariant, since
 $\bar{I\!I\!I}_D=0$ for shear flow. In fact, $\bar{I\!I\!I}_D=0$ for any 2D flow. 
 
-````{exercise} Exercise 4.2
+````{exercise}
 :label: ex:4.2
 Consider a uni-axial elongation flow, where 
 $\ten D=\dot\epsilon\vek e_x\vek e_x-\frac12\dot\epsilon\vek e_y\vek e_y-\frac12\dot\epsilon\vek e_z\vek e_z$. Show that $\bar{I\!I}_D=\frac32\dot\epsilon^2$ and $\bar{I\!I\!I}_D=\frac34\dot\epsilon^3$. Argue that 
@@ -120,7 +120,7 @@ Plot of $\eta(\dot\gamma)$  for various generalized Newtonian models ($n=0.3$).
 ````
 
 
-````{exercise} Exercise 4.3
+````{exercise}
 :label: ex:4.3
 
 Assume $\eta_\infty=0$.
@@ -129,7 +129,7 @@ Show, that for $\lambda\dot\gamma \gg 1$ the Carreau and Carreau-Yasuda model ca
 ````
 
 
-````{exercise} Exercise 4.4
+````{exercise}
 :label: ex:4.4
 
 For $\dot\gamma\rightarrow0$ the viscosity of the power law model is unbounded. We want to limit the viscosity to some given value $\eta_\text{max}$. Show that by using a Carreau 
@@ -285,7 +285,7 @@ Note, that because $\dot\gamma_\text{e}^h$ depends on $\vek u_h$, we now have ob
 
 
 
-````{exercise} Exercise 4.5
+````{exercise}
 :label: ex:4.5
 
 Derive the expression for $\vek g_{k}(\vek u_h)$ in Equation {eq}`eq24-chap4`.
@@ -542,7 +542,7 @@ In {numref}`fig13-chap4`, we show the difference between iterations of the solut
 Finally, in {numref}`fig16-chap4` we show the condition number (the ratio of the maximum and minimum eigenvalue) of the system matrix for the first twenty iterations of the power law and the Carreau model as compared to the Stokes system for $\mu=1$. Clearly, the condition of the matrix is much worse for the power-law model than for the Carreau model, supporting the claim that the convergence problems for the pressure are related to precision loss.
 
 
-````{exercise} Exercise 4.6
+````{exercise}
 :label: ex:4.6
 How do you expect, the following actions:   
 
@@ -739,7 +739,7 @@ However, in practise it will not be exactly zero and the error will propagate in
 
 ```
 
-````{exercise} Exercise 4.7
+````{exercise}
 :label: ex:4.7
 
  Show that for the models given in Remark~\ref{rem:genmodels}, $\eta'/\dot\gamma$ is given by:
@@ -784,14 +784,14 @@ $$
   k,m=1,\dots N_{u}
 $$ (eq53-chap4)
 
-````{exercise} Exercise 4.8
+````{exercise}
 :label: ex:4.8
 
 Derive the expression for $\ten G_{k}(\vek u_h)$ in Equation {eq}`eq53-chap4`.
 
 ````
 
-````{exercise} Exercise 4.9
+````{exercise}
 :label: ex:4.9
 
 Show that the following terms in the right-hand side of Equations {eq}`eq52-chap4` can be evaluated as:
@@ -845,14 +845,14 @@ $$ (eq57-chap4)
 
 with $\mat{G_{km}}$ the $d\times d$ matrices of the components of $\ten G_{km}(\vek u_h)$ with respect to a Cartesian coordinate system given by the unit vectors $\vek e_i$, $i=1,\dots,d$. 
 
-````{exercise} Exercise 4.10
+````{exercise}
 :label: ex:4.10
 
 Show that the matrix $\mat{G}(\col{u})$ is symmetric.
 
 ````
 
-````{exercise} Exercise 4.11
+````{exercise}
 :label: ex:4.11
 
  Show that the system matrix given in Equation {eq}`eq55-chap4` is symmetric.
@@ -879,7 +879,7 @@ $$ (eq59-chap4)
 For the starting vector we can use a Stokes solution as discussed in Remark~\ref{rem:startingvectoru0}.
 A stopping criterium, such as $\Delta_u^{(j)}=\max_i|u_i^{(j)}-u_i^{(j-1)}|\leq\epsilon_u$ and $\Delta_p^{(j)}=\max_i|p_i^{(j)}-p_i^{(j-1)}|\leq\epsilon_p$ with $\epsilon_u$ and $\epsilon_p$ small positive values, needs to be defined to limit the number of iterations.
 
-````{exercise} Exercise 4.12
+````{exercise}
 :label: ex:4.12
 
  Show that the Newton-Raphson process can also be written as
@@ -900,7 +900,7 @@ $$ (eq61-chap4)
 
 ````
 
-````{exercise} Exercise 4.13
+````{exercise}
 :label: ex:4.13
 
 If you would use a stabilized element (see {numref}`Chap3.6`), which formulation would you prefer: solving for $(\Delta u,\Delta p)$ (Equations {eq}`eq59-chap4`) or $(\Delta u,p)$ (Equations {eq}`eq61-chap4`)? Explain why.

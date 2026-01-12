@@ -151,7 +151,7 @@ $$ (eq11-chap2)
 
 which is positive for $v\neq0$. The choice of $v=0$ must be excluded here, since the variation $\delta u=0$ in that case, whatever the choice of $\epsilon$.
 
-````{exercise} Exercise 2.1
+````{exercise}
 :label: ex:2.1
 
  A choice of $v=c$, where $c\neq0$ is a constant, leads to a zero value of the second derivative. Why is this not a valid choice for the function $v$?
@@ -167,7 +167,7 @@ $$ (eq12-chap2)
 which needs to be valid for *any* function $v(\vek x)$
 with $v(\vek x)=0$ on $\Gamma_\text{D}$.
 
-````{exercise} Exercise 2.2
+````{exercise}
 :label: ex:2.2
 Show that if $u$ minimizes $I$, the minimum value is
 
@@ -416,13 +416,13 @@ f_k=\int_\Omega \phi_kf\,d\Omega
       -\int_{\Gamma_\text{N}}\phi_kh_\text{N}\,d\Gamma, \qquad k=1,\dots N
 $$ (eq32-chap2)
 
-````{exercise} Exercise 2.3
+````{exercise}
 :label: ex:2.3
  Derive Equation {eq}`eq31-chap2` and Equation {eq}`eq32-chap2`.
 
 ````
 
-````{exercise} Exercise 2.4
+````{exercise}
 :label: ex:2.4
 
  Show that $A_{km}=A_{mk}$.
@@ -443,19 +443,19 @@ $$ (eq34-chap2)
 where $\mat A$ is an $N\times N$ matrix and $\col u$, $\col f$ are columns of size $N$, constructed from the components $A_{km}$, $u_k$ and $f_k$, respectively.
 
 
-````{exercise} Exercise 2.5
+````{exercise}
 :label: ex:2.5
 
  Derive Equation {eq}`eq33-chap2`.
 ````
 
-````{exercise} Exercise 2.6
+````{exercise}
 :label: ex:2.6
 
  Show that the matrix $\mat A$ is symmetric.
 ````
 
-````{exercise} Exercise 2.7
+````{exercise}
 :label: ex:2.7
 
  Show that the matrix $\mat A$ is positive definite, i.e.
@@ -579,7 +579,7 @@ $$ (eq44-chap2)
 
 where $\mat A$ is an $N\times N$ matrix and $\col u$, $\col f$ columns of size $N$, constructed from the components $A_{km}$, $u_k$ and $f_k$, respectively. Comparing Equation {eq}`eq43-chap2` with Equation {eq}`eq33-chap2` we can conclude that the method of Ritz and the Galerkin method lead to the same set of discretized equations in this case.
 
-````{exercise} Exercise 2.8
+````{exercise}
 :label: ex:2.8
   Derive the expressions for $A_{km}$ and $f_k$ as given by Equations {eq}`eq41-chap2`-{eq}`eq42-chap2`.
 
@@ -667,7 +667,7 @@ where $x_1$ and $x_2$ are the $x$-coordinates of node 1 and 2, respectively.
 Element in 1D with two end nodes to define linear basis functions.
 ```
 
-````{exercise} Exercise 2.9
+````{exercise}
 :label: ex:2.9
 
  Show that the four coefficients $a_i$, $b_i$, $i=1,2$ can be found from the matrix equation
@@ -742,7 +742,7 @@ $$ (eq52-chap2)
 Element in 1D with two end nodes and one node in the middle to define quadratic basis functions.
 ```
 
-````{exercise} Exercise 2.10
+````{exercise}
 :label: ex:2.10
 
 Verify, that the quadratic basis functions in Equation {eq}`eq52-chap2` fulfill the Kronecker delta and the partition of unity property. Piecewise quadratic basis functions are denoted by $P_2$.
@@ -750,7 +750,7 @@ Verify, that the quadratic basis functions in Equation {eq}`eq52-chap2` fulfill 
  ````
 
 
-````{exercise} Exercise 2.11
+````{exercise}
 :label: ex:2.11
 
 Using *Lagrange interpolation*, the basis functions for the quadratic 
@@ -783,7 +783,7 @@ $(x,y)$ are the coordinates of $\vek x$ in a Cartesian coordinates system.
 Triangular element in 2D with three nodes to define linear basis functions.
 ```
 
-````{exercise} Exercise 2.12
+````{exercise}
 :label: ex:2.12
 
 Show that the nine coefficient $a_i$, $b_i$, $c_i$, $i=1,2,3$ can be found from the matrix equation 
@@ -846,14 +846,14 @@ Triangular element in 2D with three nodes in the vertices and three nodes in the
 ```
 
 
-````{exercise} Exercise 2.13
+````{exercise}
 :label: ex:2.13
 
 Verify, that the quadratic basis functions on element level Equation {eq}`eq56-chap2` lead to continuous global basis functions.
 
 ````
 
-````{exercise} Exercise 2.14
+````{exercise}
 :label: ex:2.14
 
 Verify, that the quadratic basis functions in Equation {eq}`eq56-chap2` fulfill the Kronecker delta and the partition of unity property.
@@ -876,7 +876,7 @@ $(x,y,z)$ are the coordinates of $\vek x$ in a Cartesian coordinates system.
 Tetrahedral element with four nodes to define linear basis functions.
 ```
 
-````{exercise} Exercise 2.15
+````{exercise}
 :label: ex:2.15
 
 Show that the sixteen coefficient $a_i$, $b_i$, $c_i$, $d_i$ $i=1,\dots,4$ can be found from the matrix equation 
@@ -912,7 +912,7 @@ $$ (eq58-chap2)
 
 The linear ($P_1$) basis functions on element level $(\lambda_1(\vek x),\lambda_2(\vek x),\lambda_3(\vek x),\lambda_4(\vek x))$ are called the *barycentric* coordinates on the tetrahedron. The barycentre is the point where all barycentric coordinates are the same: $\lambda_1=\lambda_2=\lambda_3=\lambda_4=\frac14$. 
 
-````{exercise} Exercise 2.16
+````{exercise}
 :label: ex:2.16
 
 Show, that the quadratic ($P_2$) basis functions on the element given in Figure {numref}`fig10-chap2` become
@@ -936,14 +936,14 @@ $$ (eq59-chap2)
 Tetrahedral element with four nodes in the vertices and six nodes in the middle of the six edges to define quadratic basis functions.
 ```
 
-````{exercise} Exercise 2.17
+````{exercise}
 :label: ex:2.17
 
 Verify, that the quadratic basis functions in {eq}`eq59-chap2` fulfill the Kronecker delta and the partition of unity property.
 
 ````
 
-````{exercise} Exercise 2.18
+````{exercise}
 :label: ex:2.18
 
 Verify, that the quadratic basis functions on element level Equation {eq}`eq59-chap2` lead to continuous global basis functions.
@@ -1020,7 +1020,7 @@ Reference triangle with three and six nodes.
 
 For that, we need to express the barycentric coordinates $(\lambda_1,\lambda_2,\lambda_3)$ in terms of $(\xi,\eta)$.
 
-````{exercise} Exercise 2.19
+````{exercise}
 :label: ex:2.19
 
 Use Equation {eq}`eq54-chap2` to show that for the reference triangle shown in {numref}`fig12-chap2` we have 
@@ -1070,7 +1070,7 @@ Similar to the reference triangle, we need to express the barycentric coordinate
 
 
 
-````{exercise} Exercise 2.20
+````{exercise}
 :label: ex:2.20
 
 Use Equation {eq}`eq57-chap2` to show that for the reference tetrahedron shown in {numref}`fig17-chap2` we have 
@@ -1181,13 +1181,13 @@ A reference hexahedron. $|\xi|\leq1$, $|\eta|\leq1$, $|\zeta|\leq1$.
 
 Similar to the quadrilateral, trilinear and triquadratic basis functions can be defined using products of 1D basis functions in $\xi$, $\eta$ and $\zeta$.
 
-````{exercise} Exercise 2.21
+````{exercise}
 :label: ex:2.21
 
 Argue that for the trilinear and triquadratic basis functions we need 8 and 27 nodes, respectively. Where are these positioned in the reference element?
 ````
 
-````{exercise} Exercise 2.22
+````{exercise}
 :label: ex:2.22
 
 `EZTFEM` Study the  $P_2$ and $Q_2$ basis functions on the reference triangle and quadrilateral, respectively, using
@@ -1225,13 +1225,13 @@ The second example is the isoparametric mapping of the bilinear quadrilateral of
 Mapping of a reference quadrilateral onto a quadrilateral in real space. Iso-parametric mapping (bilinear basisfunctions).
 ```
 
-````{exercise} Exercise 2.23
+````{exercise}
 :label: ex:2.23
 
 Argue, that linear triangles and bilinear quadrilaterals can be combined in one mesh.
 ````
 
-````{exercise} Exercise 2.24
+````{exercise}
 :label: ex:2.24
 
 Consider a bilinear quadrilateral isoparametric element with nodal coordinates:
@@ -1271,7 +1271,7 @@ $$
 $$
 
 ````
-````{exercise} Exercise 2.25
+````{exercise}
 :label: ex:2.25
 
  Consider a bilinear quadrilateral isoparametric element with nodal coordinates:
@@ -1343,14 +1343,14 @@ The use of isoparametric elements in finite element codes is almost universal. S
 1. Computation of the mapping and the gradients thereof can be performed efficiently, since the basis functions and the gradients thereof have already been computed for the interpolation of the primary variable (see also next subsection).
 2. A linear function in $\vek x$: $u=a+\vek b\cdot\vek x$ can be represented *exactly* (see Exercise {numref}`ex:2.26`).
 
-````{exercise} Exercise 2.26
+````{exercise}
 :label: ex:2.26
 
 Show that a linear function in $\vek x$: $u(\vek x)=a+\vek b\cdot\vek x$ can be represented *exactly* by iso-parametrically mapped elements. Hint: first compute the values of the function $u(\vek x)$ in the nodal points of an element and then interpolate the nodal values to any position $\vek x$ in the element. What physical state does this represent for a temperature, velocity and displacement field?
  
 ````
 
-````{exercise} Exercise 2.27
+````{exercise}
 :label: ex:2.27
 
 Assume a scalar $u$ is interpolated on the reference triangle with quadratic basis functions. The mapping is performed with linear basis functions. This is called *subparametric*.
@@ -1358,13 +1358,13 @@ Can the linear function $u(\vek x)=a+\vek b\cdot\vek x$ be represented exactly?
  
 ````
 
-````{exercise} Exercise 2.28
+````{exercise}
 :label: ex:2.28
 
 Assume a scalar $u$ is interpolated on the reference triangle with *linear* basis functions. The mapping is performed with *quadratic* basis functions. Can the linear function $u(\vek x)=a+\vek b\cdot\vek x$ be represented exactly? 
  
 ````
-````{exercise} Exercise 2.29
+````{exercise}
 :label: ex:2.29
 
  Consider a one-dimensional element with the reference coordinate $\xi\in[-1,1]$. The basis functions are quadratic ($P_2$) and the nodal points 1, 2 and 3 in the reference element are respectively at $\xi=-1$, $0$ and $\xi=1$. The reference element is mapped *isoparametrically* onto a real element $x\in[0,1]$ with $x_1=0$, $x_2=\frac14$ and $x_3=1$.
@@ -1516,7 +1516,7 @@ $$ (eq79-chap2)
 It is required that the Jacobian matrix $\mat F(\col x_\text{ref})$ is not singular, i.e. $\det F(\col x_\text{ref})\neq0$ for all $\col x_\text{ref}\in\Omega_\text{e,ref}$, where $\Omega_\text{e,ref}$ is the element reference domain. This is equivalent to the requirement that $\col x(\col x_\text{ref})$ is an invertible mapping.
 ```
 
-````{exercise} Exercise 2.30
+````{exercise}
 :label: ex:2.30
 
 Argue that an integral over the element domain $\Omega_\text{e}$ can be written as an integral over the reference domain $\Omega_\text{e,ref}$ as follows
@@ -1599,7 +1599,7 @@ $$ (eq84-chap2)
 i.e. from the 1D Gauss-Legendre points we can generate a 2D rule consisting of an $N_\text{g}\times N_\text{g}$ grid of points $(\xi_k,\eta_m)$,  $k,m=1,\dots N_\text{g}$ with corresponding weights $w_k w_m$. Note, that polynomial terms $\xi^p\eta^q$, $p\leq2N_\text{g}-1$, $q\leq2N_\text{g}-1$ are integrated exactly. Similarly for the reference cube $[-1,1]\times[-1,1]\times[-1,1]$ we can generate a 3D rule consisting of an $N_\text{g}\times N_\text{g}\times N_\text{g}$ grid of points $(\xi_k,\eta_m,\zeta_n)$,  $k,m,n=1,\dots N_\text{g}$ with corresponding weights $w_k w_m w_n$. Polynomial terms $\xi^p\eta^q\zeta^r$, $p\leq2N_\text{g}-1$, $q\leq2N_\text{g}-1$, $r\leq2N_\text{g}-1$  are integrated exactly.
 The points in these derived rules for the reference square and cube are within the reference element, all weights are positive and the sum is equal to the reference area (4 and 8 for the reference square and cube, respectively).
 
-````{exercise} Exercise 2.31
+````{exercise}
 :label: ex:2.31
 
 (`EZTFEM`) Study the position of the Gauss-Legendre points on the reference triangle up to $p=21$ and quadrilateral up to $n=20$, 
@@ -1625,7 +1625,7 @@ $$ (eq86-chap2)
 where we have omitted the integrals on the Neumann boundary for simplicity. The matrix $\mat A$ (with components $A_{km}$) is sparse, but the individual matrices $\mats{\bar A}_{e}$ (with components $\bar A_{km}^e$) are even more sparse. In fact, for a particular element $e$ we only have $\bar A_{km}^e\neq0$ for $k$ and $m$ such that the corresponding degrees $u_k$ and $u_m$ belong to the nodes connected to element $e$.
 
 
-````{exercise} Exercise 2.32
+````{exercise}
 :label: ex:2.32
 
  Verify, the latter statement. For that, consider a small mesh of six-node triangular elements with $P_2$ basis functions. Choose a single element from the mesh and study which of the nodal patches (see Figure {numref}`fig2-chap2`) have overlap for that element you have chosen.
@@ -1663,7 +1663,7 @@ This is how the assembly process has been implemented in `EZTFEM`. The drawback 
 In `TFEM` the sparsity pattern needed for the storage of the matrix is determined before the actual assembly, in order to speed up the assembly process.
 ```
 
-````{exercise} Exercise 2.33
+````{exercise}
 :label: ex:2.33
 
 Verify that the “sparsity pattern” of the matrix $\mat A$ has the following properties: 
@@ -1688,7 +1688,7 @@ $$ (eq87-chap2)
 where the function $g(\vek x)=u_\text{D}$ for $\vek x$ on $\Gamma_\text{D}$. 
 
 
-````{exercise} Exercise 2.34
+````{exercise}
 :label: ex:2.34
 Show, that when using standard finite element basis functions obeying the Kronecker delta property, i.e. $\phi(\vek x_i)_k=\delta_{ij}$, the basis functions are indeed zero on the Dirichlet boundary $\Gamma_\text{D}$. Assume, that
  the positions of the velocity nodes $\vek x_i$, $i=1,\dots,N$ are not on $\Gamma_\text{D}$. 
@@ -1712,7 +1712,7 @@ $$ (eq89-chap2)
 Although, strictly speaking, $U_h$ is not a subset of $U$ ($U_h\not\subset U$), this is a common procedure and does not affect the rate of convergence as long as the boundary value $u_\text{D}$ is properly interpolated and converges to $u_\text{D}$ with the correct order given by basis functions $\phi_k$.
 
 
-````{exercise} Exercise 2.35
+````{exercise}
 :label: ex:2.35
 
 Show, that when using standard finite element basis functions obeying the Kronecker delta property, i.e. $\phi_k(\vek x_m)=\delta_{km}$, the coefficients $u_k$, $k=1,\dots,N$ are still the values of $u_h$ in the nodes
@@ -1721,7 +1721,7 @@ $\vek x_k$, $k=1,\dots,N$ after adding $g_h(\vek x)$.
 ````
 The addition of the function $g(\vek x)$ or $g_h(\vek x)$ for fullfilling the Dirichlet conditions is an inconvenience in the derivation of the finite element equations. Fortunately, when using $g_h(\vek x)$ as given in Equation {eq}`eq88-chap2`, the additional terms are easily obtained in the actual implementation in a finite element program. 
 
-````{exercise} Exercise 2.36
+````{exercise}
 :label: ex:2.36
 
 Show, that if we had included the Dirichlet boundary conditions according to Equation {eq}`eq89-chap2`, we would have obtained 
@@ -1801,7 +1801,7 @@ Note, that the partitioning is not really needed and the original node-for-node 
 aware of this of when analyzing the spectrum of the system matrix.
 
 
-````{exercise} Exercise 2.37
+````{exercise}
 :label: ex:2.37
 
 Show that Equation {eq}`eq95-chap2` leads to the correct solution, i.e. $\mats{A}_{\text{uu}}\cols{u}_{\text{u}}=\cols{f}_{\text{u}}-\mats{A}_{\text{up}}\cols{u}_{\text{D}}$ and $\cols{u}_{\text{p}}=\cols{u}_{\text{D}}$.

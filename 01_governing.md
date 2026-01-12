@@ -275,7 +275,7 @@ $$ \ten\tau =\lambda(\tr\ten D)\ten I+2\mu\ten D=\lambda(\nao\cdot\vek u)\ten I+
 where $\lambda$ is a dilatational coefficient and $\mu$ the *viscosity*. The coefficient $\lambda$ is usually written as $\lambda=\kappa-\frac 23\mu$, with $\kappa$ the *dilatational viscosity*. For an ideal monoatomic gas 
 $\kappa=0$ (see e.g. {cite}`Bird2002`).
 
-````{exercise} Exercise 1.1
+````{exercise}
 :label: ex:1.1
 
 
@@ -313,7 +313,7 @@ $$
 \end{align*}
 $$ (eq49-chap1)
 
-````{exercise} Exercise 1.2
+````{exercise}
 :label: ex:1.2
 
 

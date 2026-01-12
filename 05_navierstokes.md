@@ -207,7 +207,7 @@ $$
   k,m=1,\dots N_{u}
 $$ (eq16-chap5)
 
-````{exercise} Exercise 5.1
+````{exercise}
 :label: ex:5.1
 
 Derive the expressions for $\ten M_{km}$ and $\vek N_k(\vek u_h)$ as given by Equations {eq}`eq15-chap5`.
@@ -244,7 +244,7 @@ $$ (eq18-chap5)
 
 The column vectors $\col p$, $\col f$ and matrices $\mat A$, $\mat B$ are the same as for the Stokes equations (see Equations {eq}`eq24-chap3`). The matrix $\mat M$ is called the *mass matrix*.
 
-````{exercise} Exercise 5.2
+````{exercise}
 :label: ex:5.2
 
  Show that the mass matrix $\mat M$ is symmetric, and positive definite, i.e. $\mat{M^T}=\mat{M}$ and
@@ -255,14 +255,14 @@ $$ (eq19-chap5)
 
 ````
 
-````{exercise} Exercise 5.3
+````{exercise}
 :label: ex:5.3
 
 
 What is the physical interpretation of the quantity $\frac12\col{u^T}\mat{M}\col{u}$?.
 
 ````
-````{exercise} Exercise 5.4
+````{exercise}
 :label: ex:5.4
 
 Assume spatial dimension $d=3$.
@@ -285,7 +285,7 @@ where each block is the same and given by the $N_u\times N_u$-matrix $\mat m$, h
 
 ````
 
-````{exercise} Exercise 5.5
+````{exercise}
 :label: ex:5.5
 
 What is the physical interpretation of the sum of all entries of the matrix $\mat m$ as defined in {numref}`ex:5.4`?
@@ -358,7 +358,7 @@ $$
 \end{pmatrix}
 $$ (eq27-chap5)
 
-````{exercise} Exercise 5.6
+````{exercise}
 :label: ex:5.6
 
 Show, that the matrix $\mat{L}(\col{u})$ is not symmetric, i.e. $\mat{L^T}\neq\mat{L}$.
@@ -469,7 +469,7 @@ $$ (eq34-chap5)
 
 where in the last line we have substituted the expression for $\Delta a$ and $\Delta b$ to obtain a linear expression in $a^{(j+1)}$ and $b^{(j+1)}$. The Newton-Raphson scheme can be obtained by removing the higher-order terms (h.o.t.).
 
-````{exercise} Exercise 5.7
+````{exercise}
 :label: ex:5.7
 
 Show that a third-order term $abc$ can be linearized using:
@@ -561,7 +561,7 @@ Depending on the Reynolds number $\textit{Re}$, the Stokes solution as a startin
 
 ```
 
-````{exercise} Exercise 5.8
+````{exercise}
 :label: ex:5.8
 
 
@@ -687,14 +687,14 @@ $$
 $$ (eq48-chap5)
 
 
-````{exercise} Exercise 5.9
+````{exercise}
 :label: ex:5.9
 
 Derive Equation {eq}`eq47-chap5`
 
 ````
 
-````{exercise} Exercise 5.10
+````{exercise}
 :label: ex:5.10
 
 Perturb the nonlinear system Equation {eq}`eq45-chap5`, i.e. solve for a perturbed solution $\col{u}(t)+\col{\epsilon}(t)$ starting from a perturbed initial condition $\col{u_0}+\col{\epsilon_0}$. Show that for small $\col{\epsilon}(t)$ we have
@@ -1022,7 +1022,7 @@ By multiplying Equation {eq}`eq74-chap5` (second equation) with a factor $\frac1
 
 ```
 
-````{exercise} Exercise 5.11
+````{exercise}
 :label: ex:5.11
 
 Show that applying a $\theta$-method leads to
@@ -1044,7 +1044,7 @@ Like the trapezoidal method, the $\theta$-method violates the correct initial co
 
 ````
 
-````{exercise} Exercise 5.12
+````{exercise}
 :label: ex:5.12
 
 The *two-step* BDF2 time-discretization method {cite}`Hundsdorfer2003` is given by:

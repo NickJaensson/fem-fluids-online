@@ -138,7 +138,7 @@ which is quite useful for transforming the physical equations into a suitable
 form for implementation with the ALE formulation.
 
 
-````{exercise} Exercise 6.1
+````{exercise}
 :label: ex:6.1
 
 Consider the extrudate problem of {numref}`fig2-chap6`. Starting from the straight extrudate, the fluid will move up and down and the mapping $\hat{\vek x}(\col{\xi},t)$ will follow this motion. Is the grid/mesh velocity divergence free, i.e. is $\nao\cdot\vek u_\text{m}=0$?
@@ -190,7 +190,7 @@ $$
   \pderiv{\vek x}t\Big|_{\col\xi}=(\vek u\cdot\vek n)\vek n+\vek u_\text{m,t}
 $$ (eq15-chap6)
 
-````{exercise} Exercise 6.2
+````{exercise}
 :label: ex:6.2
 
 Show, that the tangential grid velocity can be written as
@@ -227,7 +227,7 @@ Two extreme cases are
 
     The surface moves in normal direction only.
 
-````{exercise} Exercise 6.3
+````{exercise}
 :label: ex:6.3
 
 Assume a planar elongational flow:
@@ -270,7 +270,7 @@ $$ (eq22-chap6)
 Tracking the material boundary using a height function $h(x,t)$.
 ```
 
-````{exercise} Exercise 6.4
+````{exercise}
 :label: ex:6.4
 
 Derive Equation {eq}`eq22-chap6`. Hint: first derive the tangential vector using $\plderiv{\hat{\vek x}}{x}$.
@@ -289,7 +289,7 @@ $$
  h(x,t=0)=H,\qquad h(x=0,t)=H
 $$ (eq24-chap6)
 
-````{exercise} Exercise 6.5
+````{exercise}
 :label: ex:6.5
 
  Show that the component in tangential direction of the grid velocity $\vek u_\text{m}$, is given by
@@ -300,7 +300,7 @@ $$ (eq25-chap6)
 
 ````
 
-````{exercise} Exercise 6.6
+````{exercise}
 :label: ex:6.6
 
  Show that for a material surface in 3D described by a height function $z=h(x,y,t)$, $h$ fulfills the PDE:
@@ -355,7 +355,7 @@ $$ (eq29-chap6)
 
 and then Equation {eq}`eq27-chap6` with $h^*_{n+1}$ to find the prediction of the mesh coordinates at $t_{n+1}$.
 
-````{exercise} Exercise 6.7
+````{exercise}
 :label: ex:6.7
 
 Show, that $h^*_{n+1}$ in Equation {eq}`eq29-chap6` introduces a $\mathcal{O}(\Delta t^2)$ error, assuming $h_n$ and $h_{n-1}$ are itself at least $\mathcal{O}(\Delta t^2)$ accurate.
@@ -370,7 +370,7 @@ $$ (eq30-chap6)
 
 Using Equation {eq}`eq27-chap6`  the full mesh position at $t_{n+1}$ can be computed.
 
-````{exercise} Exercise 6.8
+````{exercise}
 :label: ex:6.8
 
 Why do we need a correction and cannot use the prediction only?
@@ -407,13 +407,13 @@ Hence, the surface tension leads to a difference between the imposed traction $\
 Left: part of the Neumann boundary $\Gamma_\text{N}$, described by the arc length $s$, with the domain $\Omega$ on the left side. Also defined are the unit tangential vector $\vek t$, outwardly directed unit normal vector $\vek n$ and imposed traction vector $\vek t_\text{N}$. Right: zoom of an infinitesimally small part of the boundary $ds$, where the boundary has been separated from the bulk fluid.
 ```
 
-````{exercise} Exercise 6.9
+````{exercise}
 :label: ex:6.9
 
  Argue, that Equation {eq}`eq32-chap6` does not depend on the positive direction of $s$.
 ````
 
-````{exercise} Exercise 6.10
+````{exercise}
 :label: ex:6.10
 
 Show that
@@ -438,14 +438,14 @@ $$ (eq34-chap6)
 where $s_1$ and $s_2$ are the start and the end of the curve. The last term(s) only appear if the Neumann boundary
 is open (not closed) and the end points are not Dirichlet (since $\vek v=\vek 0$ for Dirichlet boundaries).
 
-````{exercise} Exercise 6.11
+````{exercise}
 :label: ex:6.11
 
 Is partial integration really needed?
 
 ````
 
-````{exercise} Exercise 6.12
+````{exercise}
 :label: ex:6.12
 
 Does the additional term of the weak form given in Equation {eq}`eq34-chap6` after partial integration include the effect of the Marangoni stresses, i.e. $\lderiv{\sigma}s\neq0$, or does it only work for constant $\sigma$?
@@ -469,14 +469,14 @@ $$ (eq36-chap6)
 
 as an additional contribution to the right-hand side of Equation {eq}`eq23-chap3` (first equation).
 
-````{exercise} Exercise 6.13
+````{exercise}
 :label: ex:6.13
  
 Show that Equation {eq}`eq36-chap6` only contributes to the nodes $k$ that are positioned on the boundary $\Gamma_\text{N}$. Assume the Kronecker delta property, i.e. $\phi_k(\vek x_m)=\delta_{km}$.
 
 ````
 
-````{exercise} Exercise 6.14
+````{exercise}
 :label: ex:6.14
 
  Assume, that the basis functions $\phi_k$ are defined by mapping polynomials on a reference element to the real element. The reference coordinates are $\col \xi=(\xi_1,\xi_2)$, $i=1,2$, thus $\phi_k(\col\xi)$. Furthermore, assume that isoparametric elements are used, i.e. the shape of an element is given by mapping the same basis functions from the reference coordinates:
@@ -666,19 +666,19 @@ We solve the following spinning problem using the Stokes equations ($\mu=1$) and
 The problem is determined by the two dimensionless numbers $\DR$ and $L_2/R$. The latter we fix to $L_2/R=20$ and therefore $\DR$ remains as the only one.
 
 
-````{exercise} Exercise 6.15
+````{exercise}
 :label: ex:6.15
 
 Formally, we should have included $L_1/R$. Argue, why $L_1/R$ is expected to be not important.
 ````
 
-````{exercise} Exercise 6.16
+````{exercise}
 :label: ex:6.16
 
 Assume the flow is steady. Show, that the radius at the exit curve $C_6$ is $R_\text{exit}=R/\sqrt{\DR}$.
 ````
 
-````{exercise} Exercise 6.17
+````{exercise}
 :label: ex:6.17
 
 Assume the flow is unsteady. The radius at the exit curve $C_6$ $R_\text{exit}$ is a function of time. Explain, how this is possible with $u_r=0$ on curve $C_6$?
