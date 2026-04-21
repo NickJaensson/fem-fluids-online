@@ -44,12 +44,12 @@ $$ \dot{\Phi} = \int\limits_{\Omega(t)} ( \frac{\partial \xi}{ \partial t}  + \n
 
 Finally, with the Gauss divergence theorem, a third version of the transport theorem of Reynolds follows:
 
-$$ \dot{\Phi} = \int\limits_{\Omega(t)} \frac{\partial \xi}{ \partial t}  d\Omega + \int\limits_{\Gamma(t)} \vek n \cdot \xi d  \Gamma, $$ (eq7-chap1)
+$$ \dot{\Phi} = \int\limits_{\Omega(t)} \frac{\partial \xi}{ \partial t}  d\Omega + \int\limits_{\Gamma(t)} \vek n \cdot (\xi {\vek u})  d  \Gamma, $$ (eq7-chap1)
 
 which is perhaps the most well known version of the theorem. 
 If we now substitute $\rho$ for $\xi$ we obtain
 
- $$ \int\limits_{\Omega(t)} \frac{\partial \rho}{ \partial t}  d\Omega + \int\limits_{\Gamma(t)} {\vek n} \cdot \rho d  \Gamma = 0, $$ (eq8-chap1)
+ $$ \int\limits_{\Omega(t)} \frac{\partial \rho}{ \partial t}  d\Omega + \int\limits_{\Gamma(t)} {\vek n} \cdot (\rho \vek{u}) d  \Gamma = 0, $$ (eq8-chap1)
 
  stating the change of mass in the volume should be equal to the flux of mass through the boundaries, or, in other words, we have balance of mass.  Similar, if we substitute $\rho$ for $\xi$ in Equation {eq}`eq4-chap1`, and again realize that the left hand side is equal to zero, the differential form of the balance of mass arises
 

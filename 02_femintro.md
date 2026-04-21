@@ -401,7 +401,7 @@ which will give $N$ equations for the $N$ unknown coefficients.
 Substitution of Equation {eq}`eq28-chap2` into {eq}`eq7-chap2` leads to
 
 $$
-  I_N(u_1,u_2,\dots,n_{N})= \sum_{k=1}^N(\sum_{m=1}^N \frac12 u_k A_{km}u_m-u_k f_k)
+  I_N(u_1,u_2,\dots,u_{N})= \sum_{k=1}^N(\sum_{m=1}^N \frac12 u_k A_{km}u_m-u_k f_k)
 $$ (eq30-chap2)
 
 with
@@ -1135,8 +1135,8 @@ however they cannot be linear on the whole element, since this would require thr
 
 $$
 \begin{split}
-  \phi_1(\xi),\eta)&=\dfrac14(1-\xi)(1-\eta),\quad \phi_2(\xi),\eta)=\dfrac14(1+\xi)(1-\eta),\\
-  \phi_3(\xi),\eta)&=\dfrac14(1+\xi)(1+\eta),\quad \phi_4(\xi),\eta)=\dfrac14(1-\xi)(1+\eta)
+  \phi_1(\xi,\eta)&=\dfrac14(1-\xi)(1-\eta),\quad \phi_2(\xi,\eta)=\dfrac14(1+\xi)(1-\eta),\\
+  \phi_3(\xi,\eta)&=\dfrac14(1+\xi)(1+\eta),\quad \phi_4(\xi,\eta)=\dfrac14(1-\xi)(1+\eta)
 \end{split}
 $$ (eq66-chap2)
 
@@ -1439,8 +1439,8 @@ $$
       \dpderiv{\,}{\eta}
     \end{pmatrix}=
     \begin{pmatrix}
-      \dpderiv{x_1}{\xi}\dpderiv{\,\,\,}{x_1}+ \dpderiv{x_2}{\xi}\dpderiv{\,\,\,}{x_1}\\[2ex]
-    \dpderiv{x_1}{\eta}\dpderiv{\,\,\,}{x_1}+ \dpderiv{x_2}{\eta}\dpderiv{\,\,\,}{x_1}
+      \dpderiv{x_1}{\xi}\dpderiv{\,\,\,}{x_1}+ \dpderiv{x_2}{\xi}\dpderiv{\,\,\,}{x_2}\\[2ex]
+    \dpderiv{x_1}{\eta}\dpderiv{\,\,\,}{x_1}+ \dpderiv{x_2}{\eta}\dpderiv{\,\,\,}{x_2}
     \end{pmatrix}=\mat F^T
     \begin{pmatrix}
       \dpderiv{\,\,\,}{x_1} \\[2ex]
