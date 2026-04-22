@@ -1,3 +1,3 @@
 # Credits
 
-Martien A. Hulsen \& Patrick D. Anderson
+Martien A. Hulsen, Nick ). Jaensson \& Patrick D. Anderson
